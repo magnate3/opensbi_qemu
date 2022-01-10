@@ -125,7 +125,9 @@ install root directory path can be specified as follows:
 make PLATFORM=<platform_subdir> I=<install_directory> install
 ```
 **To run qemu virt, run** :
+```
  make PLATFORM=qemu/virt CROSS_COMPILE=riscv64-linux-gnu-
+```
 
 In addition, platform-specific configuration options can be specified with the
 top-level make command line. These options, such as *PLATFORM_<xyz>* or
